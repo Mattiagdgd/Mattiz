@@ -1,0 +1,31 @@
+name: mattiz
+description: >-
+  Mattiz is an anonymous communication platform providing secure messaging
+  over both internet and long-range Bluetooth transports.
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.0
+  go_router: ^13.2.0
+  json_annotation: ^4.8.1
+  uuid: ^3.0.7
+  flutter_blue_plus: ^1.16.2
+  web_socket_channel: ^2.4.0
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  lint: ^2.1.2
+
+flutter:
+  uses-material-design: true
